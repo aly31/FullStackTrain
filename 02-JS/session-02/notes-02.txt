@@ -1,0 +1,63 @@
+Using back ticks for strings is the best.
+Because you can template shit like so:
+
+let bts = `hurr durr 
+${stringvar} ${4+8}`;
+console.log(bts);
+
+or something like that. Pretty damn cool. Will actually preformat,
+so the output will contain nextline, tabs like below:
+
+hurr durr
+oogabooga 12
+
+You can concatenate strings.
+
+There are 4 datatypes unique and interesting in JS,
+which is undefined, null, object, and symbol.
+Null takes no memory and can be used to check existence.
+undefined takes memory but has nothing.
+
+Objects are versatile and can have muliple properties.
+
+Symbols are actually of type function. This enables
+giving private functions to classes, and functional programming.
+
+Arrays are considered objects in JS btw.
+
+Hoisting is really bad. But picture this:
+
+console.log(hiding);
+var hiding = "I hid from you";
+
+We're lucky here. hiding will hoist, but if hiding was a let, it would not hoist
+at ALL. Throws an error. If you code back-end consistently, let is the way to go.
+Back end is infinitely cooler.
+
+delete keyword can delete anything. Var, objects. returns a boolean.
+if true, successful.
+
+Using the ... (spread) operator, you can pass in old object properties
+into newer objects.
+
+obj1 = {
+    ...obj,
+    googoo: "gaga"
+}
+
+WARNING
+if you do something like so:
+
+obj1 = obj;
+
+anything modified in obj1 will be reflected in obj.
+objects are always passed by reference.
+
+What the below line of code does, is alter the structure 
+of the specified object with a new structure.
+
+let {
+    loop: {
+        conditional
+    }
+} = obj3;

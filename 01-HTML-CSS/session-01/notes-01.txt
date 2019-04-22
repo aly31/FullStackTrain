@@ -1,0 +1,18 @@
+1. Never use the !important tag in css. 
+It is hard to port and overwrite the !important tag.
+
+2. Only 1 id per tag. Classes can be abused and are more flexible.
+
+3. .class1 .class2 -> The space is significant because it implies 
+nested elements, where the child element classes are towards the right,
+and parent element classes are towards the left, showing a heirarchy.
+
+4. class tags are give priority right to left if declared in the same 
+element in html. 
+
+5. In css, you can give multiple classes the same style with 
+.class1.class2 or .class1, #id1
+
+6. Pseudo classes are denoted by the colon. Look more into it.
+
+7. Look int Immediately Invoked Functions.

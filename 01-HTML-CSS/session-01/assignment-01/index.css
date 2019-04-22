@@ -1,0 +1,42 @@
+.myBody{
+    font-size: 30px;
+}
+
+.div1{
+    font: comic;
+}
+
+#myP:hover{
+    color: orange;
+    font-size: 50px;
+}
+
+.heading{
+    color: #888888
+}
+
+.myTable, .tablerow, #cell{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+/* unvisited link */
+a.myLink:link {
+    color: blue;
+}
+
+/* visited link */
+a.myLink:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a.myLink:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a.myLink:active {
+    color: rgb(34, 255, 255);
+} 

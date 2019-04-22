@@ -1,0 +1,23 @@
+div {
+    color: green;
+}
+.font {
+    font-size: 30px;
+}
+.colorRed {
+    color: red;
+}
+
+.colorGreen {
+    color: green;
+}
+.colorGreen .colorBlue  {
+    color: blue;
+}
+.colorGreen .colorBlue .colorYellow {
+    color: yellow;
+}
+
+.colorBlue, #myDiv {
+    color: blue;
+}
