@@ -1,0 +1,22 @@
+body {
+    margin-top: 30px;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+.main {
+    border: 2px dotted green;
+    margin: 20px;
+    padding: 30px;
+    height: 100px;
+    width: 200px;
+    box-sizing: border-box;/* content-box by default */
+}
+
+#myAgeDisplayBlock {
+    display: none;
+}
+
+.phases {
+    display: none;
+}

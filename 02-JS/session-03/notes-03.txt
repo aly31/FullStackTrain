@@ -1,0 +1,23 @@
+Padding is the space between the element and its border.
+Border has its own thickness.
+Margin is the space between the DOM and the Border.
+
+CSS display has more additional properties.
+The DOM will reassign height and width of the element
+depending on its boxing (padding/border/margin).
+There are ways to change how its calculated...
+
+    1. box-sizing: border-box;
+        padding and border are included in the width and height.
+    2. box-sizing: content-box;
+        padding and border are NOT included in the width and height.
+
+display: none 
+takes no DOM space.
+display: block
+is normal. Takes up DOM space.
+visibility: hidden
+takes up DOM space but does not show the element.
+
+getElements returns a HTMLCollection.
+
